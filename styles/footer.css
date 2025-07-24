@@ -3,3 +3,49 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.footer {
+  background-color: rgb(255, 240, 245);
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Lora', serif;
+  color: rgba(166, 77, 121, 0.8);
+  border-top: 1px solid rgba(248, 200, 220, 0.7);
+  margin-top: 50px;
+  box-shadow: 0 -4px 12px rgba(255, 182, 193, 0.1);
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.15);
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(255, 182, 193, 0.3);
+}
+
+.icons:hover {
+  animation: float 3s ease-in-out infinite;
+}
+/*Icon animation*/
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
