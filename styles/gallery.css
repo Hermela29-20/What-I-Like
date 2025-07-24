@@ -14,3 +14,18 @@
   margin-bottom: 40px;
   text-shadow: 1px 1px 2px rgb(255, 192, 203);
 }
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* space between items */
+  padding: 0 50px 100px 50px;
+  justify-content: center; 
+}
+
+/*Styling the Photo Grid*/
+.photogrid{
+  display: grid;
+  grid-template-rows: 200px 200px 1fr;
+  grid-template-columns: 200px 200px  1fr;
+}
