@@ -91,3 +91,18 @@ p{
   font-weight: bold;
 }
 
+/*hovering and active styling of the heading icon*/
+.home:hover,
+.about:hover,
+.contact:hover {
+  background-color: rgb(255, 228, 240);
+  box-shadow: 0 2px 8px rgba(255, 105, 180, 0.3);
+}
+
+.home:active,
+.contact:active {
+  background-color: rgb(255, 153, 187);
+  color: white;
+  transition: 0.4s;
+}
+
