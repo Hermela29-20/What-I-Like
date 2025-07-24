@@ -3,3 +3,90 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+/*Container Styling*/
+
+contact{
+  border: solid 5px pink;
+  margin: 20px;
+  background-color: #fff0f5; /* light pinky lavender */
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.4);
+
+}
+
+/* Heading Styling*/
+h2{
+  font-family: 'Lora', serif;
+  color: deeppink;
+  margin-bottom: 20px;
+  border-bottom: 2px solid pink;
+  padding-bottom: 10px;
+  text-align: center; ;
+}
+
+/*Button, Names and Input styling*/
+.names, .gender, .phone, .email, .comment, .reason{
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: deeppink;
+  font-size: 16pxs;
+  margin-left: 15px;
+}
+
+#FirstName, #LastName, #PhoneNumber, #Email, #Comment{
+  border-radius: 10px;
+  border: solid;
+  border:none;
+  box-shadow: 0 0 8px rgba(255,105,180,0.3);
+  width:90%;
+  padding: 10px;
+  margin-left:10px;
+  margin-right: 10px;
+  font-size: 15px;
+  background-color: #fff
+}
+
+#FirstName::placeholder, #LastName::placeholder, #PhoneNumber::placeholder, #Email::placeholder{
+  color:hotpink;
+  font-style: italic;
+}
+
+.submit{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: block;
+  background-color: pink;
+  font-size: 16px;
+  font-weight: bold;
+  border:none;
+  color:white;
+  cursor: pointer;
+  margin: 12px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+  transition: all 0.3s ease;
+
+}
+
+.submit:hover{
+  background-color: hotpink;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+.submit:active{
+  background-color: deeppink;
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) inset;
+}
+
+#rangesatisfaction{
+  margin-left: 10px;
+  color: hotpink;
+}
