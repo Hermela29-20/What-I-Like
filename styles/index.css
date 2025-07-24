@@ -27,3 +27,9 @@ html {
   padding: 0 20px;
 }
 
+/*body styling*/
+body{
+  padding-top: 70px;
+  background-color: rgb(255, 240, 246);
+}
+
