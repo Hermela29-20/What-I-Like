@@ -33,3 +33,23 @@ body{
   background-color: rgb(255, 240, 246);
 }
 
+/*header styling*/
+h1{
+  font-family: Tangerine;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 55px;
+  margin-right: 20px;
+  color: rgb(255, 105, 180);
+  text-shadow: 1px 1px 4px rgb(255, 192, 203);
+}
+
+/*paragraph styling*/
+p{
+  font-family: Tangerine, arial ;
+  font-size: 40px;
+  font-style: italic;
+  text-shadow: 1px 1px 3px  rgb(251, 204, 224);
+ 
+}
+
