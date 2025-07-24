@@ -3,3 +3,14 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+/* Styling the heading in gallery.html */
+.gallery{
+  color:hotpink;
+  font-family: lora;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgb(255, 192, 203);
+}
