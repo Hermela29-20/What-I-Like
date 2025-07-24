@@ -55,3 +55,34 @@ h1{
   transform: scale(1.02);
   box-shadow: 0 12px 24px rgba(255, 182, 193, 0.5);
 }
+
+/*Background Editing and Styling*/
+.background-container {
+  background-image: url('../images/_.jpeg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;               /* Set height */
+  display: flex;
+  justify-content: center;     /* Vertically center text */
+  align-items: center;         /* Horizontally center text */
+  text-align: center;
+  padding: 40px;
+  border-radius: 0 0 80px 80px;
+  position: relative;
+  z-index: 0;
+  margin-top: 10px;
+  box-shadow: inset 0 -20px 40px rgba(255, 182, 193, 0.3);
+}
+
+.background-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 240, 245, 0.2); /* light pink overlay */
+  z-index: -1;
+}
