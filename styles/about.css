@@ -3,3 +3,25 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+/*Section Styling*/
+section {
+  padding-top: 100px; 
+}
+
+/*About Me container styling*/
+.about-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: visible;  
+  border-bottom-right-radius: 300px;
+  padding: 50px;
+  background-color: rgb(255, 228, 240); 
+  gap: 30px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+}
