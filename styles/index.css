@@ -78,5 +78,16 @@ p{
   justify-content: space-between;
   margin-right: 20px;
   flex-shrink: 0;
-
 }
+
+/*icons stylin in the heading*/
+.home, .about, .contact, .gallery{
+  height: 30px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  color: rgb(204, 51, 102);
+  font-weight: bold;
+}
+
