@@ -33,5 +33,108 @@
   </div>
   </header>
   
+  <!--A form used for a contact-->
+  <section id="contact">
+  <h2>Contact information</h2>
+  <form action="">
+    <label for="FirstName">
+      <span class="names">First Name :</span> 
+      <input
+       type="text" 
+       name="FirstName" 
+       id="FirstName"
+       placeholder="Enter Your First Name" required/>
+      </label>
+    <br><br>
+    <label for="LastName">
+      <span class="names">Last Name : </span>
+    <input 
+    type="text" 
+    class="LastName" 
+    id="LastName" 
+    placeholder="Enter Your Last Name"/>
+    </label>
+    
+    <br><br>
+    <label for="Gender">
+      <span class="gender">Gender :</span>
+      <input
+      type="radio"
+      value="Female"
+      name="gender"
+      id="Female"\>Female
+      </label>
+      <label>
+      <input
+      type="radio"
+      value="Male"
+      name="gender"
+      id="Male"/>Male
+    </label>
+    <br><br>
+    <label for="Phone Number">
+      <span class="phone">Phone Number : </span>
+      <input type="number" 
+      id="PhoneNumber" 
+      name="Phone Number" 
+      placeholder="Enter Your Phone Number"/>
+    </label>
+    <br><br>
+    <lable for="Email">
+      <span class="email">Email:</span>
+      <input 
+      type="email" 
+      id="Email"
+       name="Email" 
+       placeholder="Enter your Email"required/>
+    </lable>
+    <br><br>
+    <lable for="Comment"> 
+      <span class="comment">Comment</span>
+      <textarea 
+      type="comment"
+      id="Comment"
+      name="Comemnt"
+      rows="5"
+      placeholder="Write your comment" required>
+    </textarea>
+    <br><br>
+    </lable>
+    <label>
+      <span class="reason">Reason for contact</span>
+      <input
+      type="checkbox"
+      name="Hire"
+      id="hire"
+      value="Hire"/>Hire
+    </label>
+    <label>
+      <input
+      type="checkbox"
+      name="Collab"
+      id="collab"
+      value="Collab"/>Collab
+    </label>
+    <label>
+      <input
+      type="checkbox"
+      name="Chat"
+      id="chat"
+      value="Chat"/>Chat
+    </label>
+    <br><br>
+    <label>
+      <input
+      type="range"
+      class="range"
+      name="Range Satisfaction"
+      id="rangesatisfaction"
+      value="Range Satisfaction"/>Range Satisfaction
+    </label>
+    <br><br>
+    <button class="submit">Submit</button>
+  </form>
+  </section>
+
 </body>
 </html>
