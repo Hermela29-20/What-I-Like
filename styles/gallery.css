@@ -23,9 +23,38 @@
   justify-content: center; 
 }
 
+.column{
+  width: 100%;
+}
+
 /*Styling the Photo Grid*/
 .photogrid{
   display: grid;
   grid-template-rows: 200px 200px 1fr;
   grid-template-columns: 200px 200px  1fr;
+}
+
+/* Image hovering and styling*/
+.img-hover{
+  height:auto;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.img-hover img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+  transition: transform .5s ease;
+}
+
+.img-hover:hover img {
+  transform: scale(1.5);
 }
