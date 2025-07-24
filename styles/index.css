@@ -106,3 +106,23 @@ p{
   transition: 0.4s;
 }
 
+/*frame picture styling in the home page*/
+.frame{
+  display: flex;
+  width: 300px;
+  height:400px;
+  object-fit: conver;
+  border: solid 7px white ;
+  margin-left: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/*hovering style on the frame*/
+.frame:hover {
+  transform: scale(1.03);
+}
+
