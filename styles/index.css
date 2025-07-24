@@ -126,3 +126,25 @@ p{
   transform: scale(1.03);
 }
 
+/*introduction of the web styling*/
+.intro{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 228, 240);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  border-radius: 0 0 60px 60px;
+  box-shadow: inset 0 -10px 30px rgba(255, 182, 193, 0.2);
+}
+
+.info{
+  margin-left: 20px;
+  margin-left: 20px;
+  max-width: 500px;
+  color: rgba(75, 0, 51, 0.8);
+  line-height: 1.7;
+}
+
