@@ -9,6 +9,16 @@ section {
   padding-top: 100px; 
 }
 
+/* Heading Styling */
+h1{
+  font-weight: bold;
+  color: hotpink;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 3px #ffc0cb
+}
+
 /*About Me container styling*/
 .about-section{
   display: flex;
