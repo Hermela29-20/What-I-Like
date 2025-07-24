@@ -35,3 +35,23 @@ h1{
   position: relative;
   z-index: 1;
 }
+
+/*Paragraph stylin in about.html*/
+.more{
+  width:500px;
+  font-family:lora;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #5e3a50; /* rosy-brown */
+  padding: 25px;
+  background-color: #fff0f8;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px rgba(255, 182, 193, 0.4); /* pink shadow */
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.more:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(255, 182, 193, 0.5);
+}
