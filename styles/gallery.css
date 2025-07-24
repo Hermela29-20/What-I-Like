@@ -58,3 +58,23 @@
 .img-hover:hover img {
   transform: scale(1.5);
 }
+/* --------- Responsive for Mobile ----------- */
+@media screen and (max-width: 600px){
+  .row{
+   grid-template-columns: 1fr 1fr;
+   padding: 0 20px;
+  }
+
+}
+
+/* --------- Responsive for Tablets ----------- */
+@media screen and (max-width: 800px){
+  .row{
+   grid-template-columns: repeat(2, 1fr); 
+  
+  }
+   .column {
+    align-items: center;
+  }
+  
+}
