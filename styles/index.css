@@ -53,3 +53,19 @@ p{
  
 }
 
+/* left section of the header styling*/
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+/* right section of the header styling*/
+.right-section{
+  width:200px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+
+}
