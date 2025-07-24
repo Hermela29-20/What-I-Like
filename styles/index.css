@@ -29,8 +29,8 @@ html {
 
 /*body styling*/
 body{
-  padding-top: 70px;
   background-color: rgb(255, 240, 246);
+  padding: 20px;
 }
 
 /*header styling*/
