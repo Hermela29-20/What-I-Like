@@ -224,13 +224,46 @@ h1{
 
 
 /* --------- Responsive for Mobile ----------- */
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 565px) {
   h1, .table-title, .list-title {
     font-size: 28px;
   }
 
   .more {
     font-size: 14px;
+    padding: 15px;
+  }
+
+  .cute-table th,
+  .cute-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icons {
+    width: 30px;
+    margin: 5px;
+  }
+}
+
+/* --------- Responsive for Mobile ----------- */
+@media screen and (max-width: 417px) {
+  h1, .table-title, .list-title {
+    font-size: 28px;
+  }
+
+  .more {
+    font-size: 8px;
     padding: 15px;
   }
 
